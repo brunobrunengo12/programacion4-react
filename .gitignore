@@ -1,0 +1,19 @@
+﻿# Dependencias (bloqueado en todas las subcarpetas)
+**/node_modules/
+node_modules/
+
+# Variables de entorno reales (bloqueadas en todas las subcarpetas)
+.env
+**/.env
+.env.local
+**/.env.local
+
+# Permitir explicitamente los archivos de ejemplo requeridos
+!.env.example
+!**/.env.example
+
+# Archivos de build y sistema
+dist/
+**/dist/
+.DS_Store
+Thumbs.db
